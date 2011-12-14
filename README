@@ -1,2 +1,7 @@
 
+Code used to generate the CKAN LOD Cloud Validator
+http://www4.wiwiss.fu-berlin.de/lodcloud/ckan/validator/
+
 Depends on CKAN Client 0.1.0 PHP (https://github.com/jeffreybarke/Ckan_client-PHP)
+
+
