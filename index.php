@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML>
 <HEAD>
-<TITLE>CKAN LOD Datasets</TITLE>
+<TITLE>Data Hub LOD Datasets</TITLE>
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
 
 <script type="text/javascript" src="autocomplete/jquery.js"></script>
@@ -109,23 +109,23 @@
 </div>
 
 <div id="header">
-  <h1 style="font-size: 250%">CKAN LOD Datasets</h1>
+  <h1 style="font-size: 250%">Data Hub LOD Datasets</h1>
 </div>
 
 <div>
-  LOD Datasets on CKAN | <a href="validate.php">Validate</a> | <a href="levels.html">Help</a>
+  LOD Datasets on Data Hub | <a href="validate.php">Validate</a> | <a href="levels.html">Help</a>
 </div>
 
 <div id="content">
 
   <form action="validate.php" method="post" name="package">
-		<p style="margin-bottom:40px;">Search CKAN package: <input style="width: 300px;" size="500" id="package" name="package" onKeyPress="KeyCode;"/> <input type="submit" name="submit" value=">"/></p>
+		<p style="margin-bottom:40px;">Search Data Hub dataset: <input style="width: 300px;" size="500" id="package" name="package" onKeyPress="KeyCode;"/> <input type="submit" name="submit" value=">"/></p>
 	</form>
 
-  <p>This website gives an overview of Linked Data sources cataloged on <a href="http://ckan.net">CKAN</a> and their completeness level for inclusion in the <a href="http://lod-cloud.net">LOD cloud</a>.
-  It furthermore offers a validator for your CKAN entry with step-by-step guidance.</p>
+  <p>This website gives an overview of Linked Data sources cataloged on <a href="http://ckan.net">Data Hub</a> and their completeness level for inclusion in the <a href="http://lod-cloud.net">LOD cloud</a>.
+  It furthermore offers a validator for your Data Hub entry with step-by-step guidance.</p>
 
-  <p>If you publish a Linked Data set yourself, please add it to <a href="http://ckan.net">CKAN</a> so that it appears in the next version of the <a href="http://lod-cloud.net">LOD cloud diagram</a>. Please describe your data set according to <a href="http://www.w3.org/wiki/TaskForces/CommunityProjects/LinkingOpenData/DataSets/CKANmetainformation">Guidelines for Collecting Metadata on Linked Datasets in CKAN</a>.</p>
+  <p>If you publish a Linked Data set yourself, please add it to <a href="http://ckan.net">Data Hub</a> so that it appears in the next version of the <a href="http://lod-cloud.net">LOD cloud diagram</a>. Please describe your data set according to <a href="http://www.w3.org/wiki/TaskForces/CommunityProjects/LinkingOpenData/DataSets/CKANmetainformation">Guidelines for Collecting Metadata on Linked Datasets in Data Hub</a>.</p>
 
   <p style="margin-top:20px;">
     This list is updated hourly.
@@ -144,13 +144,13 @@
   <p>
     <ul>
       <li><a href="#level_1-3">Datasets with a completeness level &lt; 4 (requiring more information)</a></li>
-      <li><a href="#collection">Data set collections (tagged dataset-collection)</a></li>
-      <li><a href="#needsinfo">Data sets that need more information from the data publisher (tagged lodcloud.needsinfo)</a></li>
-      <li><a href="#needsfixing">Data sets that need to be fixed (tagged lodcloud.needsfixing)</a></li>
-      <li><a href="#nolinks">Data sets that have no external RDF links (tagged lodcloud.nolinks)</a></li>
-      <li><a href="#unconnected">Data sets that have no external or internal RDF links (tagged lodcloud.unconnected)</a></li>
-      <li><a href="#lodcloud_candidates">Data sets that are candidates for the next LOD cloud (and connected)</a></li>
-      <li><a href="#lodcloud">Data sets with a completeness level of 4 (reviewed and already in lodcloud group)</a></li>
+      <li><a href="#collection">Dataset collections (tagged dataset-collection)</a></li>
+      <li><a href="#needsinfo">Datasets that need more information from the data publisher (tagged lodcloud.needsinfo)</a></li>
+      <li><a href="#needsfixing">Datasets that need to be fixed (tagged lodcloud.needsfixing)</a></li>
+      <li><a href="#nolinks">Datasets that have no external RDF links (tagged lodcloud.nolinks)</a></li>
+      <li><a href="#unconnected">Datasets that have no external or internal RDF links (tagged lodcloud.unconnected)</a></li>
+      <li><a href="#lodcloud_candidates">Datasets that are candidates for the next LOD cloud (and connected)</a></li>
+      <li><a href="#lodcloud">Datasets with a completeness level of 4 (reviewed and already in lodcloud group)</a></li>
     </ul>
   </p>
   
